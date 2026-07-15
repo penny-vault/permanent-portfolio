@@ -52,8 +52,8 @@ func (s *PermanentPortfolio) Describe() engine.StrategyDescription {
 		ShortCode:   "pp",
 		Description: description,
 		Source:      "https://en.wikipedia.org/wiki/Fail-Safe_Investing",
-		Version:     "0.1.0",
-		VersionDate: time.Date(2026, 5, 2, 0, 0, 0, 0, time.UTC),
+		Version:     "0.1.1",
+		VersionDate: time.Date(2026, 7, 14, 0, 0, 0, 0, time.UTC),
 		Schedule:    "@monthend",
 		Benchmark:   "SPY",
 	}
